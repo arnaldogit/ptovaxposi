@@ -1,0 +1,42 @@
+[PROJECT]
+    DEBUG         = yes
+    VERSION       = 2.0
+    OPENFILES     = DISTRIBUZIONE.PRG
+    PROJECT.XPJ
+
+[PROJECT.XPJ]
+    DISTRIBUZIONE.EXE
+
+[DISTRIBUZIONE.EXE]
+    COMPILE       = xpp
+    COMPILE_FLAGS = /q
+    DEBUG_SAVE    = yes
+    GUI           = yes
+    LINKER        = alink
+    LINK_FLAGS    = 
+    RC_COMPILE    = arc
+    RC_FLAGS      = /v
+// $START-AUTODEPEND
+    STD.CH
+    SET.CH
+    NATMSG.CH
+    GET.CH
+    PROMPT.CH
+    MEMVAR.CH
+    COLLAT.CH
+    APPEVENT.CH
+    ACHOICE.CH
+    XBP.CH
+    SETCURS.CH
+    COMMON.CH
+    INKEY.CH
+    GRA.CH
+    COLOR.CH
+    FONT.CH
+    XBPDEV.CH
+    DMLB.CH
+    DISTRIBUZIONE.obj
+// $STOP-AUTODEPEND
+    ASINET10.LIB
+    DISTRIBUZIONE.PRG
+
