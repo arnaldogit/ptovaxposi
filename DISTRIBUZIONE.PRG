@@ -36,6 +36,7 @@ PROCEDURE Main
         *?cTitolo
         *wait
         *clea scre
+        *
 
         BIABLU="W+/B"
         BIAROS="W+/R"
